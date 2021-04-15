@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{810dfd56-58c1-4286-a65d-8624adc0182e}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>leetcode\linked-list\remove_nth.py</StartupFile>
+    <StartupFile>leetcode\linked-list\reverse.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -23,6 +23,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="leetcode\linked-list\remove_nth.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="leetcode\linked-list\reverse.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="leetcode\string\reversestring.py" />
