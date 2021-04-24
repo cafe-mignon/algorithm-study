@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Algo", "Algo\Algo.pyproj", "{49893FD6-9AF2-46E7-9317-6441DF5E9555}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "algorithm-study", "algorithm-study.pyproj", "{810DFD56-58C1-4286-A65D-8624ADC0182E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49893FD6-9AF2-46E7-9317-6441DF5E9555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49893FD6-9AF2-46E7-9317-6441DF5E9555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810DFD56-58C1-4286-A65D-8624ADC0182E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810DFD56-58C1-4286-A65D-8624ADC0182E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27B2D069-6BCE-4E85-B536-1CE03B56DF92}
+	EndGlobalSection
+EndGlobal

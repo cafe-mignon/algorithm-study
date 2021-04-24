@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{810dfd56-58c1-4286-a65d-8624adc0182e}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>leetcode\linked-list\merge.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="leetcode\linked-list\deletenode.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="leetcode\linked-list\merge.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="leetcode\linked-list\remove_nth.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="leetcode\linked-list\reverse.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="leetcode\string\reversestring.py" />
+    <Compile Include="leetcode\string\reverse_int.py" />
+    <Compile Include="programmers\algo\algo.py" />
+    <Compile Include="programmers\algo\Array\leetcode_array1_removedups.py" />
+    <Compile Include="programmers\algo\Array\leetcode_array2_twosum.py" />
+    <Compile Include="programmers\algo\Array\leetcode_array3_movezeros.py" />
+    <Compile Include="programmers\algo\Array\leetcode_array4_rotatearray.py" />
+    <Compile Include="programmers\algo\Array\leetcode_array5_singlenumber.py" />
+    <Compile Include="programmers\algo\Array\leetcode_array6_rotateimage.py" />
+    <Compile Include="programmers\algo\Brute-force\모의고사.py" />
+    <Compile Include="programmers\algo\String\leetcode_string_FirstUniqueCharacter.py" />
+    <Compile Include="programmers\algo\String\reversestring.py" />
+    <Compile Include="programmers\algo\String\reverse_int.py" />
+    <Compile Include="programmers\brute-force\모의고사.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="leetcode\" />
+    <Folder Include="leetcode\linked-list\" />
+    <Folder Include="leetcode\string" />
+    <Folder Include="programmers\" />
+    <Folder Include="programmers\algo" />
+    <Folder Include="programmers\algo\Array" />
+    <Folder Include="programmers\algo\Brute-force" />
+    <Folder Include="programmers\algo\String" />
+    <Folder Include="programmers\brute-force" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
